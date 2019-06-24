@@ -18,4 +18,14 @@ class MainViewController: UIViewController {
         view.backgroundColor = .green
         
     }
+    
+    
+    func buttonTapped(){
+        
+    }
+    
+    private func addButton(){
+        
+        
+    }
 }

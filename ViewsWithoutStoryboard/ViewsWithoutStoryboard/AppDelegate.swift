@@ -21,6 +21,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainNavigationController = MainNavigationController()
         let secondaryViewController = SecondaryViewController()
         
+        let mainViewController = MainViewController()
+        
+        
+        mainNavigationController.title = "NavigationVC"
+        secondaryViewController.title = "SecondaryVC"
+        mainViewController.title = "MainVC"
+        
+        
+        mainNavigationController.viewControllers = [mainViewController]
         mainTabBarController.viewControllers = [mainNavigationController, secondaryViewController]
         
         window = UIWindow(frame: UIScreen.main.bounds)
