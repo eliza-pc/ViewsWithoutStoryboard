@@ -12,6 +12,7 @@
 		1F8BBB3422C0478D005205EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8BBB3322C0478D005205EF /* Assets.xcassets */; };
 		1F8BBB3722C0478D005205EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8BBB3522C0478D005205EF /* LaunchScreen.storyboard */; };
 		1FECDEB622C04910002D9782 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FECDEB522C04910002D9782 /* MainTabBarController.swift */; };
+		1FECDEB822C049CE002D9782 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FECDEB722C049CE002D9782 /* MainNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1F8BBB3622C0478D005205EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F8BBB3822C0478D005205EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FECDEB522C04910002D9782 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1FECDEB722C049CE002D9782 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				1F8BBB3522C0478D005205EF /* LaunchScreen.storyboard */,
 				1F8BBB3822C0478D005205EF /* Info.plist */,
 				1FECDEB522C04910002D9782 /* MainTabBarController.swift */,
+				1FECDEB722C049CE002D9782 /* MainNavigationController.swift */,
 			);
 			path = ViewsWithoutStoryboard;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			files = (
 				1F8BBB2F22C0478C005205EF /* ViewController.swift in Sources */,
 				1F8BBB2D22C0478C005205EF /* AppDelegate.swift in Sources */,
+				1FECDEB822C049CE002D9782 /* MainNavigationController.swift in Sources */,
 				1FECDEB622C04910002D9782 /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

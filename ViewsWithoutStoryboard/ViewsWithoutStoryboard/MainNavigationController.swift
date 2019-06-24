@@ -1,5 +1,5 @@
 //
-//  MainTabBarController.swift
+//  MainNavigationController.swift
 //  ViewsWithoutStoryboard
 //
 //  Created by Eliza Maria Porto de Carvalho on 23/06/19.
@@ -10,12 +10,12 @@ import Foundation
 import UIKit
 
 
-class MainTabBarController: UITabBarController {
+class MainNavigationController: UINavigationController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .blue
+        view.backgroundColor = .yellow
         
     }
 }
