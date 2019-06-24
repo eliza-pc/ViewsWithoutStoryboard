@@ -14,6 +14,8 @@
 		1FECDEB622C04910002D9782 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FECDEB522C04910002D9782 /* MainTabBarController.swift */; };
 		1FECDEB822C049CE002D9782 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FECDEB722C049CE002D9782 /* MainNavigationController.swift */; };
 		1FECDEBA22C04A27002D9782 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FECDEB922C04A27002D9782 /* MainViewController.swift */; };
+		1FECDEBC22C04AAD002D9782 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FECDEBB22C04AAD002D9782 /* DetailViewController.swift */; };
+		1FECDEBE22C04B03002D9782 /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FECDEBD22C04B03002D9782 /* SecondaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1FECDEB522C04910002D9782 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		1FECDEB722C049CE002D9782 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		1FECDEB922C04A27002D9782 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1FECDEBB22C04AAD002D9782 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1FECDEBD22C04B03002D9782 /* SecondaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				1FECDEB522C04910002D9782 /* MainTabBarController.swift */,
 				1FECDEB722C049CE002D9782 /* MainNavigationController.swift */,
 				1FECDEB922C04A27002D9782 /* MainViewController.swift */,
+				1FECDEBB22C04AAD002D9782 /* DetailViewController.swift */,
+				1FECDEBD22C04B03002D9782 /* SecondaryViewController.swift */,
 			);
 			path = ViewsWithoutStoryboard;
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 				1F8BBB2F22C0478C005205EF /* ViewController.swift in Sources */,
 				1F8BBB2D22C0478C005205EF /* AppDelegate.swift in Sources */,
 				1FECDEB822C049CE002D9782 /* MainNavigationController.swift in Sources */,
+				1FECDEBC22C04AAD002D9782 /* DetailViewController.swift in Sources */,
 				1FECDEB622C04910002D9782 /* MainTabBarController.swift in Sources */,
+				1FECDEBE22C04B03002D9782 /* SecondaryViewController.swift in Sources */,
 				1FECDEBA22C04A27002D9782 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
